@@ -1,0 +1,4 @@
+/* Main declaration */
+Ash awoke!
+
+Ash fainted!

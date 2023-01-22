@@ -1,0 +1,15 @@
+/* equal comparation */
+Ash awoke!
+    Torchic you!
+    Combusken you!
+
+    Torchic has 100 hp.
+    Combusken has 50 hp.
+
+    Is Torchic equal to Combusken ?
+        Torchic has 4 hp.
+    otherwise
+        Torchic has 6 hp.
+    Adventure continues!
+
+Ash fainted!

@@ -1,0 +1,24 @@
+/* Pokémon declaration */
+Ash awoke!
+    Charmander you!
+    Charmeleon you!
+    Charizard  you!
+    Torchic    you!
+    Chimchar   you!
+    Monferno   you!
+    Blaziken   you!
+    Combusken  you!
+    Infernape  you!
+    Gastly     you!
+    Gengar     you!
+    Dusclops   you!
+    Bulbasaur  you!
+    Ivysaur    you!
+    Venusaur   you!
+    Chikorita  you!
+    Bayleef    you!
+    Meganium   you!
+    Treecko    you!
+    Grovyle    you!
+    Sceptile   you!
+Ash fainted!

@@ -1,0 +1,51 @@
+/*
+int sum(int a, int b){
+    int Gengar = 0;
+    int Charizard = 0;
+    int Charmander = 10;
+    while(!Gengar){
+        a = Charizard;
+        Charizard = a + b;
+        int Chimchar = Charizard;
+        if(Charizard > Charmander){
+           Gengar = 1;
+        }
+        Charizard = Chimchar;
+    }
+}
+int main(){
+    int a = 1;
+    int b = 1;
+    int r = sum(a,b);
+    r++;
+    printf("%x",r);
+    return 0;  //t0 -> c
+}
+*/
+Alder awoke!
+    Gengar you!
+    Gengar disappeared.
+    Charmander you!
+    Charmander has 10 hp.
+    Charizard you!
+    A wild Groudon appears!
+    Battle ends when Gengar can be visible ...
+        Torchic has Charizard hp.
+        Charizard fights Torchic with Combusken
+        Chimchar you!
+        Chimchar has Charizard hp.
+        Is Charizard stronger than Charmander ?
+            Gengar appeared.
+        Adventure continues!
+        Charizard has Chimchar hp.
+    Groudon has been defeated!
+    returned Charizard
+Alder fainted!
+Ash awoke!
+    Torchic you!
+    Torchic has 1 hp.
+    Combusken you!
+    Combusken has 1 hp.
+    Trainer Ash challenges Alder chosing Torchic Combusken now!
+    Charizard healed 1 hp.
+Ash fainted!

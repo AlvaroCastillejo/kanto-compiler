@@ -1,0 +1,12 @@
+/* invisible bool operation */
+Ash awoke!
+    Torchic you!
+    Gastly you!
+
+    Gastly appeared.
+
+    Is Gastly invisible ?
+            Torchic has 4 hp.
+    Adventure continues!
+
+Ash fainted!

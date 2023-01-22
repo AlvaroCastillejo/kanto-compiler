@@ -1,0 +1,8 @@
+/* lost operation */
+Ash awoke!
+
+    Charizard you!
+    Charizard has 100 hp.
+    Charizard lost 50 hp.
+
+Ash fainted!

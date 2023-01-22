@@ -1,0 +1,20 @@
+/* Function declaration */
+
+Alder awoke!
+Alder fainted!
+
+Blue awoke!
+Blue fainted!
+
+Cynthia awoke!
+Cynthia fainted!
+
+Diantha awoke!
+Diantha fainted!
+
+Drake awoke!
+Drake fainted!
+
+Ash awoke!
+Ash fainted!
+

@@ -1,0 +1,40 @@
+/*
+int Alder(int Torchic){
+    int Monferno = 100;
+    int Combusken = 0;
+    if(Torchic > Monferno){
+        Combusken = Torchic;
+    } else {
+        Torchic = Torchic + Torchic;
+        Combusken = Alder(Torchic);
+    }
+    return Combusken;
+}
+
+int main(){
+    int Torchic = 10;
+    Torchic = Alder(Torchic);
+    Torchic++;
+    printf("t0 = %x",Torchic);
+    return 0;  //t0 -> a1
+}
+*/
+
+Alder awoke!
+    Monferno you!
+    Monferno has 100 hp.
+    Combusken you!
+    Is Torchic stronger than Monferno ?
+        Combusken has Torchic hp.
+    otherwise
+        Torchic fights Torchic with Torchic
+        Trainer Alder challenges Alder chosing Torchic now!
+    Adventure continues!
+    returned Torchic Combusken
+Alder fainted!
+Ash awoke!
+    Torchic you!
+    Torchic has 2 hp.
+    Trainer Ash challenges Alder chosing Torchic now!
+    Torchic healed 1 hp.
+Ash fainted!

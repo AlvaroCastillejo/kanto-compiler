@@ -1,0 +1,12 @@
+/* loop flux control */
+Ash awoke!
+    Torchic you!
+    Charmander you!
+
+    Charmander has 7 hp.
+
+    A wild Regice appears! Battle ends when Torchic stronger than Charmander ...
+        Torchic healed 3 hp.
+    Regice has been defeated!
+
+Ash fainted!

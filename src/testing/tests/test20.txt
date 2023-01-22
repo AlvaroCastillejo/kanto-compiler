@@ -1,0 +1,12 @@
+/* Main declaration */
+Alder awoke!
+    Charizard has 10 hp.
+Alder fainted!
+
+Ash awoke!
+    Charizard you!
+    Gengar you!
+
+    Trainer Ash challenges Alder chosing Charizard now!
+    Charizard healed 1 hp.
+Ash fainted!

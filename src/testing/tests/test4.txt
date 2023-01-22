@@ -1,0 +1,7 @@
+/* value assignation */
+Ash awoke!
+
+    Charizard you!
+    Charizard has 100 hp.
+
+Ash fainted!

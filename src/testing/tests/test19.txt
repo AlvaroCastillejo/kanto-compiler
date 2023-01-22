@@ -1,0 +1,20 @@
+/* if else inside loop */
+Ash awoke!
+    Torchic you!
+    Charmander you!
+    Gastly you!
+
+    Gastly appeared.
+    Charmander has 7 hp.
+
+    A wild Regice appears! Battle ends when Torchic stronger than Charmander ...
+        Is Gastly visible ?
+            Torchic lost 2 hp.
+            Gastly disappeared.
+        otherwise
+            Torchic healed 10 hp.
+            Gastly appeared.
+        Adventure continues!
+    Regice has been defeated!
+
+Ash fainted!

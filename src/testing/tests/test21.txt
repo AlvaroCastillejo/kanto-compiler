@@ -1,0 +1,34 @@
+/* Fibonacci not recursive */
+Ash awoke!
+    Combusken you!
+    Torchic you!
+    Blaziken you!
+    Charizard you!
+    Chimchar you!
+
+    /* Num of times */
+    Combusken has 5 hp.
+
+    /* Initialize */
+    Torchic has 0 hp.
+    Charizard has 1 hp.
+
+    /* Control variables */
+    Blaziken has 0 hp.
+    Chimchar has 1 hp.
+
+    A wild Groudon appears! Battle ends when Blaziken stronger than Combusken ...
+
+        /* Fibonacci operation pivot*/
+        Charmeleon you!
+        Charmeleon fights Charizard with Torchic
+
+        /* Reasignation */
+        Torchic has Charizard hp.
+        Charizard has Charmeleon hp.
+
+        /* Count variable */
+        Blaziken healed 1 hp.
+
+    Groudon has been defeated!
+Ash fainted!

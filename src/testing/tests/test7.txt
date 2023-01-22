@@ -1,0 +1,13 @@
+/* spreading operation */
+Ash awoke!
+
+    Charizard you!
+    Torchic you!
+    Monferno you!
+
+    Charizard has 100 hp.
+    Torchic has 200 hp.
+
+    Monferno fights Torchic spreading Charizard
+
+Ash fainted!

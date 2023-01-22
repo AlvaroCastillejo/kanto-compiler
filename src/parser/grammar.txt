@@ -1,0 +1,182 @@
+program ::= declList AshFunction
+declList ::= declararFuncion declList
+declList ::= ''
+
+entrenador ::= Alder
+entrenador ::= Blue
+entrenador ::= Cynthia
+entrenador ::= Diantha
+entrenador ::= Drake
+
+PokemonNumeric ::= Charmander
+PokemonNumeric ::= Charmeleon
+PokemonNumeric ::= Charizard
+PokemonNumeric ::= Torchic
+PokemonNumeric ::= Combusken
+PokemonNumeric ::= Blaziken
+PokemonNumeric ::= Chimchar
+PokemonNumeric ::= Monferno
+PokemonNumeric ::= Infernape
+PokemonBoolean ::= Gastly
+PokemonBoolean ::= Gengar
+PokemonBoolean ::= Dusclops
+PokemonLiteral ::= Bulbasaur
+PokemonLiteral ::= Ivysaur
+PokemonLiteral ::= Venusaur
+PokemonLiteral ::= Chikorita
+PokemonLiteral ::= Bayleef
+PokemonLiteral ::= Meganium
+PokemonLiteral ::= Treecko
+PokemonLiteral ::= Grovyle
+PokemonLiteral ::= Sceptile
+pokemonLegendario ::= Rayquaza
+pokemonLegendario ::= Groudon
+pokemonLegendario ::= Kyogre
+pokemonLegendario ::= Zapdos
+pokemonLegendario ::= Articuno
+pokemonLegendario ::= Moltres
+pokemonLegendario ::= Regirock
+pokemonLegendario ::= Regice
+pokemonLegendario ::= Registeel
+
+ashProd ::= Ash
+awokeProd ::= awoke!
+fainted ::= fainted!
+you ::= you!
+
+PokemonVar ::= PokemonNumeric
+PokemonVar ::= PokemonBoolean
+PokemonVar ::= PokemonLiteral
+
+declararFuncion ::= inicioFuncion contFunc
+contFunc ::= code finFuncion
+inicioFuncion ::= entrenador awokeProd
+finFuncion ::= entrenador fainted
+
+AshFunction ::= AshFunctionInit contFuncAsh
+contFuncAsh ::= code AshFunctionEnd
+AshFunctionInit ::= ashProd awokeProd
+AshFunctionEnd ::= ashProd fainted
+
+code ::= PokemonVar bodyCode
+bodyCode ::= Alpha code
+code ::= W code
+code ::= IE code
+code ::= llamarFuncion code
+code ::= ''
+Alpha ::= NumericAssignation
+Alpha ::= BooleanAssignation
+Alpha ::= LiteralAssignation
+Alpha ::= modif
+Alpha ::= operation
+Alpha ::= varDecl
+
+varDecl ::= you
+numeroEnteroProd ::= numeroEntero
+hpProd ::= hp.
+
+NumericAssignation ::= hasProd numValHP
+numValHP ::= numericVal hpProd
+numericVal ::= PokemonVar
+numericVal ::= numeroEnteroProd
+
+BooleanAssignation ::= booleanAction
+booleanAction ::= appeared.
+booleanAction ::= disappeared.
+
+operation ::= fights otherVar
+otherVar ::= PokemonVar opCont
+opCont ::= oper PokemonVar
+oper ::= with
+oper ::= without
+oper ::= spreading
+oper ::= splitting
+
+modif ::= modifOper valueHP
+valueHP ::= numericVal hpProd
+modifOper ::= healed
+modifOper ::= lost
+
+LiteralAssignation ::= knows litAssig
+litAssig ::= now;
+
+Bool ::= PokemonBoolean boolAssig
+boolAssig ::= bool boolAssig'
+boolAssig' ::= PokemonBoolean
+bool ::= and
+bool ::= or
+
+llamarFuncion ::= trainerProd llamarFuncionCont
+llamarFuncionCont ::= entenadorContexto callFCont
+trainerProd ::= Trainer
+callFCont ::= challengesProd callFContA
+challengesProd ::= challenges
+callFContA ::= entrenadorFuncion resLlamar
+resLlamar ::= chosingProd paramAssig
+chosingProd ::= chosing
+resLlamar ::= now!
+paramAssig ::= parametros nowProdExcl
+nowProdExcl ::= now!
+entenadorContexto ::= entrenador
+entenadorContexto ::= Ash
+entrenadorFuncion ::= entrenador
+parametros ::= PokemonVar parametros
+parametros ::= ''
+
+numericComparation ::= PokemonNumeric compCont
+compCont ::= numericSymbol PokemonNumeric
+numericSymbol ::= stronger thanProd
+numericSymbol ::= weaker thanProd
+numericSymbol ::= equal toProd
+thanProd ::= than
+toProd ::= to
+
+booleanCheck ::= PokemonBoolean visibility
+visibility ::= visible
+visibility ::= invisible
+
+literalComparation ::= PokemonLiteral litCompCont
+litCompCont ::= literalSymbol PokemonLiteral
+literalSymbol ::= equal to
+
+IE ::= Is IECont
+IECont ::= inicioIF IEBody
+IEBody ::= code elseCondition
+inicioIF ::= comparacion interrogantProd
+interrogantProd ::= ?
+elseCondition ::= else
+elseCondition ::= finIF
+comparacion ::= numericComparation
+comparacion ::= booleanCheck
+comparacion ::= literalComparation
+else ::= otherwiseProd elseBody
+otherwiseProd ::= otherwise
+elseBody ::= code finIF
+finIF ::= adventureProd continuesProd
+adventureProd ::= Adventure
+continuesProd ::= continues!
+
+W ::= declaracionWhile whileCont
+whileCont ::= condicionWhile whileBody
+whileBody ::= code finWhile
+condicionWhile ::= BattleProd condWCont
+BattleProd ::= Battle
+condWCont ::= endsProd lastWCont
+endsProd ::= ends
+lastWCont ::= whenProd compBodyW
+whenProd ::= when
+compBodyW ::= comparacion suspensiveDotsProd
+suspensiveDotsProd ::= ...
+finWhile ::= pokemonLegendario contFw
+contFw ::= hasProd lastFW
+hasProd ::= has
+lastFW ::= beenProd defeatedProd
+beenProd ::= been
+defeatedProd ::= defeated!
+
+declaracionWhile ::= aProd decWCont
+aProd ::= A
+decWCont ::= wildProd bodyW
+wildProd ::= wild
+bodyW ::= pokemonLegendario appearsProd
+appearsProd ::= appears!

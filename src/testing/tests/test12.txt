@@ -1,0 +1,15 @@
+/* flux control (IF) + (ELSE) */
+Ash awoke!
+    Torchic you!
+    Combusken you!
+
+    Torchic has 100 hp.
+    Combusken has 50 hp.
+
+    Is Torchic stronger than Combusken ?
+        Torchic has 4 hp.
+    otherwise
+        Torchic has 6 hp.
+    Adventure continues!
+
+Ash fainted!

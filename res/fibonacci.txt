@@ -1,0 +1,49 @@
+/*
+int main(){
+    int Combusken = 10;
+    Combusken--;
+    int Torchic = 0;
+    int Charizard = 1;
+    int Blaziken = 0;
+    int Chimchar = 1;
+
+    while(!(Blaziken > Combusken)){
+        int Charmeleon = Charizard + Torchic;
+        Torchic = Charizard;
+        Charizard = Charmeleon;
+
+        Blaziken = Blaziken + Chimchar;
+    }
+    printf("t3 -> %x",Charizard);
+}
+
+*/
+
+La función principal es Ash.
+Ash awoke!
+    Combusken you!
+    Combusken has 10 hp. Valor con el que calcular el fibonacci. El resultado final se encuentra en el registro t3 en hexadecimal (MARS).
+
+    Combusken lost 1 hp.
+
+    Torchic you!
+    Torchic has 0 hp.
+    Charizard you!
+    Charizard has 1 hp.
+
+    Blaziken you!
+    Blaziken has 0 hp.
+
+    Chimchar you!
+    Chimchar has 1 hp.
+
+    A wild Groudon appears!
+    Battle ends when Blaziken stronger than Combusken ...
+        Charmeleon you!
+        Charmeleon fights Charizard with Torchic
+        Torchic has Charizard hp.
+        Charizard has Charmeleon hp.
+
+        Blaziken fights Blaziken with Chimchar
+    Groudon has been defeated!
+Ash fainted!
